@@ -14,3 +14,9 @@ values
 
 -- выбрать текущую последнюю запись
 select * from user where user_id = LAST_INSERT_ID(); 
+
+
+-- 11 DDL data defenition language
+/*
+в БОБРЕ можно посмотреть на специальной вкладке как объявлена таблица
+*/
